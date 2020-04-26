@@ -1,1 +1,193 @@
-i am being fcored to make this pls help
+#this is a buy script i have made i dont really need
+command /buy:
+
+    trigger:
+
+        wait 3 tick
+
+        open chest with 3 rows named "&6&lBuycraft" to player
+
+        format slot 0 of player with pink glass named " " to be unstealable
+
+        format slot 1 of player with pink glass named " " to be unstealable
+
+        format slot 2 of player with pink glass named " " to be unstealable
+
+        format slot 10 of player with white glass named " " to be unstealable
+
+        format slot 11 of player with white glass named " " to be unstealable
+
+        format slot 20 of player with black glass named " " to be unstealable
+
+        format slot 3 of player with black glass named " " to be unstealable
+
+        format slot 4 of player with white glass named " " to be unstealable
+
+        format slot 5 of player with black glass named " " to be unstealable
+
+        format slot 6 of player with pink glass named " " to be unstealable
+
+        format slot 7 of player with pink glass named " " to be unstealable
+
+        format slot 8 of player with pink glass named " " to be unstealable
+
+        format slot 9 of player with pink glass named " " to be unstealable
+
+        format slot 15 of player with white glass named " " to be unstealable
+
+        format slot 16 of player with white glass named " " to be unstealable
+
+        format slot 17 of player with pink glass named " " to be unstealable
+
+        format slot 18 of player with pink glass named " " to be unstealable
+
+        format slot 19 of player with black glass named " " to be unstealable
+
+        format slot 21 of player with black glass named " " to be unstealable
+
+        format slot 23 of player with black glass named " " to be unstealable
+
+        format slot 22 of player with white glass named " " to be unstealable
+
+        format slot 24 of player with black glass named " " to be unstealable
+
+        format slot 25 of player with black glass named " " to be unstealable
+
+        format slot 26 of player with pink glass named " " to be unstealable
+
+        format slot 12 of player with chest named "&8(&c&lRanks&8)" with lore "&7&m----------------------------- ||&8&l> &c&lvip ||&8&l> &c&lstevw ||&8&l> &c&lgifflar ||&7&m-----------------------------  " to close then run [make player execute command "/buyranks"]
+
+        format slot 13 of player with skull of player named "&c&lMig &a%player%" to be unstealable
+
+        format slot 14 of player with chest named "&8(&9&lKits&8)" with lore "&c&lIkke lavet endnu!" to be unstealable
+
+ 
+
+ 
+
+ 
+
+command /buyupgrades:
+
+    trigger:
+
+        wait 3 tick
+
+        open chest with 3 rows named "&9&lUprades" to player
+
+        format slot 0 of player with red glass named " " to be unstealable
+
+        format slot 1 of player with red glass named " " to be unstealable
+
+        format slot 2 of player with red glass named " " to be unstealable
+
+        format slot 10 of player with white glass named " " to be unstealable
+
+        format slot 11 of player with white glass named " " to be unstealable
+
+        format slot 20 of player with blue glass named " " to be unstealable
+
+        format slot 3 of player with blue glass named " " to be unstealable
+
+        format slot 4 of player with white glass named " " to be unstealable
+
+        format slot 5 of player with blue glass named " " to be unstealable
+
+        format slot 6 of player with red glass named " " to be unstealable
+
+        format slot 7 of player with red glass named " " to be unstealable
+
+        format slot 8 of player with red glass named " " to be unstealable
+
+        format slot 9 of player with red glass named " " to be unstealable
+
+        format slot 15 of player with white glass named " " to be unstealable
+
+        format slot 16 of player with white glass named " " to be unstealable
+
+        format slot 17 of player with red glass named " " to be unstealable
+
+        format slot 18 of player with red glass named " " to be unstealable
+
+        format slot 19 of player with blue glass named " " to be unstealable
+
+        format slot 21 of player with blue glass named " " to be unstealable
+
+        format slot 23 of player with blue glass named " " to be unstealable
+
+        format slot 22 of player with white glass named " " to be unstealable
+
+        format slot 24 of player with blue glass named " " to be unstealable
+
+        format slot 25 of player with blue glass named " " to be unstealable
+
+        format slot 26 of player with red glass named " " to be unstealable
+
+        format slot 12 of player with chest named "&2&lvagt >> &c&lmafia" with lore "&2&l3500 ems" to close then run [make console execute command "/bc &c&l%player% vil gerne upgradere til mafia rank for 100 ems"]
+
+        format slot 13 of player with chest named "&2&lnarko >> &2&lsmugler &2&lm with lore &2&l900 ems" to close then run  [make console execute command "/bc &c&l%player% vil gerne upgradere til smugler for 900 ems"]
+
+        format slot 26 of player with red glass named " " to be unstealable
+
+ 
+
+command /buyranks:
+
+    trigger:
+
+        wait 3 tick
+
+        open chest with 3 rows named "&c&lRanks" to player
+
+        format slot 0 of player with pink glass named " " to be unstealable
+
+        format slot 1 of player with pink glass named " " to be unstealable
+
+        format slot 2 of player with pink glass named " " to be unstealable
+
+        format slot 10 of player with chest named "&b&lgifflar" with lore "&2&l2000 ems" to close then run [make console execute command "/bc &c&l%player% vil gerne købe &b&lgrifflar Rank &c&ltil &2&l2000 &2&lE&a&lM &c&li en lobby!"]
+        
+        format slot 11 of player with white glass named " " to be unstealable
+
+        format slot 20 of player with black glass named " " to be unstealable
+
+        format slot 3 of player with black glass named " " to be unstealable
+
+        format slot 4 of player with white glass named " " to be unstealable
+
+        format slot 5 of player with black glass named " " to be unstealable
+
+        format slot 6 of player with pink glass named " " to be unstealable
+
+        format slot 7 of player with pink glass named " " to be unstealable
+
+        format slot 8 of player with pink glass named " " to be unstealable
+
+        format slot 9 of player with pink glass named " " to be unstealable
+
+        format slot 16 of player with chest named "&b&lstew" with lore "&2&l5000 ems" to close then run [make console execute command "/bc &c&l%player% vil gerne købe &b&lstew Rank &c&ltil &2&l500 &2&lE&a&lM &c&li en lobby!"]
+
+        format slot 15 of player with white glass named " " to be unstealable
+
+        format slot 17 of player with pink glass named " " to be unstealable
+
+        format slot 18 of player with pink glass named " " to be unstealable
+
+        format slot 19 of player with black glass named " " to be unstealable
+
+        format slot 21 of player with black glass named " " to be unstealable
+
+        format slot 23 of player with black glass named " " to be unstealable
+
+        format slot 22 of player with white glass named " " to be unstealable
+
+        format slot 24 of player with black glass named " " to be unstealable
+
+        format slot 25 of player with black glass named " " to be unstealable
+
+        format slot 26 of player with pink glass named " " to be unstealable
+
+        format slot 12 of player with chest named "&b&lvip" with lore "&2&l1000 &2&lE&a&lM" to close then run [make console execute command "/bc &c&l%player% vil gerne købe &b&lvip Rank &c&ltil &21000 &2&lE&a&lM &c&li en lobby!"]
+
+        format slot 13 of player with pink glass named " " to be unstealable
+        
